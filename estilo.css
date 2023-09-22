@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+}
+
+.painel {
+    background-color: darkred;
+    border: 5px solid black;
+    height: 550px;
+    width: 650px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 3px 3px 10px darkred;
+}
+
+#tela {
+    margin: auto;
+    border: 5px solid black;
+    height: 400px;
+    width: 500px;
+    margin-bottom: 15px;
+    background-image: url(https://w0.peakpx.com/wallpaper/332/1012/HD-wallpaper-pokemon-3d-ball-nintendo-poke-pokeball-sphere.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#entrada {
+    height: 40px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 3px 3px 10px black;
+}
+
+::placeholder {
+    color: whitesmoke;
+}
+
+button {
+    height: 45px;
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 3px 3px 10px black;
+}
+
+button:hover {
+    background-color: darkred;
+    height: 45px;
+}
+
+.pokemon {
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 0;
+    color: #f7cf2e;
+    background-color: darkred;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+
+p {
+    color:#f7cf2e;
+    font-size: 20px;
+    margin:inherit;
+    margin-top: -3px;
+}
+
+.erro {
+    margin-top: 175px;
+    color: #f7cf2e;
+    background-color: darkred;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
